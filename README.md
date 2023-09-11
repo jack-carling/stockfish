@@ -29,12 +29,12 @@ const CONFIG = {
 
 The rough location of the board is found by taking the lowest and highest `x` and `y` values of where the light and dark squares were found. It will then scan pixel by pixel until reaching the border and determining exactly where the board is located. Hence, why the border hex color of the board needs to be specified as well.
 
-![](https://github.com/jack-carling/stockfish/assets/72305598/9e022939-b47d-41f2-beec-728980b169c2)
+![](https://github.com/jack-carling/stockfish/assets/72305598/843cd23b-bb32-478e-9e33-4d21dd8ab50b)
 
 After the exact location has been found the bot will click on the pawns on a7 and b7 in order to compute the exact colors of the highlighted squares. 
 
-![](https://github.com/jack-carling/stockfish/assets/72305598/1b4c553c-3e23-4339-97da-6d6dbcd1cea6)
+![](https://github.com/jack-carling/stockfish/assets/72305598/709d55fb-2fb3-4add-bb03-b73ceb2decef)
 
 The bot will then determine if it's playing as black or white and start playing accordingly. Whenever it's the opponent's turn the bot will wait and scan the board for highlighted squares that indicates a move. When a move has been made, it will be inputted to Stockfish and the terminal will return the best move. Then  RobotJS will move the pieces, so sit back and relax. Oh and if somebody castles it breaks half of the time.
 
-![](https://github.com/jack-carling/stockfish/assets/72305598/d1f3e275-28e2-4939-9015-05be1e382c3f)
+![](https://github.com/jack-carling/stockfish/assets/72305598/6d5e5bbd-af39-4396-a6ac-b2a1ec5d2e78)
