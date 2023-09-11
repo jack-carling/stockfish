@@ -1,0 +1,21 @@
+{
+  "name": "stockfish",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "nearest-color": "^0.4.4",
+    "robotjs": "^0.6.0",
+    "stockfish": "^15.0.0"
+  },
+  "devDependencies": {
+    "prettier": "2.8.8"
+  }
+}
